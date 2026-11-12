@@ -1,0 +1,18 @@
+a=float (input ("enter 1st no. "))
+b=float (input("enter 2nd no. "))
+print(" what operation do you want to perform")
+print("1.ADD 2.SUB 3.MULTIPLY 4.DIVISION 5.EXPONENT") 
+       
+op=int(input("enter Choice(1/2/3/4/5) "))
+if op==1:
+  print (a+b)
+elif op==2:
+  print (a-b)
+elif op==3:
+  print (a*b)
+elif op==4:
+  print (a/b)
+elif op==5:
+  print (a**b)
+else:
+  print (" sorry!! operation isn't supported")
